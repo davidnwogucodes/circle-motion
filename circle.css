@@ -1,0 +1,30 @@
+body
+{
+  background-color:  #4b5320;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.circle{
+  background-color: #FFD700;
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  transition: 0.5s;
+  background-image: url('./circle.jpg');
+  background-position: center;
+  background-size: cover;
+  filter: blur(2px);
+}
+
+.circle:hover{
+
+  width:400px;
+  height: 400px;
+  filter: blur(0);
+  margin-left: 5px
+
+}
